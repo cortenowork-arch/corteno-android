@@ -35,8 +35,21 @@ android {
     }
 }
 
+// إجبار version واحد من Kotlin لتجنب التعارض
+configurations.all {
+    resolutionStrategy {
+        force 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22'
+    }
+}
+
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.core:core:1.12.0'
     implementation 'androidx.webkit:webkit:1.9.0'
+    
+    // Force Kotlin version
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
 }
