@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background gradient -->
+    <path
+        android:fillColor="#0a1628"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    
+    <!-- Glow circle -->
+    <path
+        android:fillColor="#3ba8ff"
+        android:fillAlpha="0.2"
+        android:pathData="M54,54 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+    
+    <!-- Main TV icon -->
+    <path
+        android:fillColor="#5bc0ff"
+        android:strokeColor="#5bc0ff"
+        android:strokeWidth="2"
+        android:pathData="M30,40 L78,40 Q82,40 82,44 L82,72 Q82,76 78,76 L30,76 Q26,76 26,72 L26,44 Q26,40 30,40 Z" />
+    
+    <!-- TV inner -->
+    <path
+        android:fillColor="#0a1628"
+        android:pathData="M32,46 L76,46 L76,70 L32,70 Z" />
+    
+    <!-- Play button -->
+    <path
+        android:fillColor="#7dd0ff"
+        android:pathData="M48,52 L62,58 L48,64 Z" />
+    
+    <!-- TV stand -->
+    <path
+        android:fillColor="#5bc0ff"
+        android:pathData="M40,76 L40,80 L68,80 L68,76 Z" />
+    <path
+        android:fillColor="#5bc0ff"
+        android:pathData="M44,80 L44,84 L64,84 L64,80 Z" />
+    
+</vector>

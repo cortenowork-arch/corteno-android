@@ -1,0 +1,18 @@
+<resources>
+    <color name="bgDeep">#050a18</color>
+    <color name="bgDark">#0a1628</color>
+    <color name="bgMedium">#0d1f3a</color>
+    <color name="bgLight">#142547</color>
+    
+    <color name="accentPrimary">#3ba8ff</color>
+    <color name="accentLight">#5bc0ff</color>
+    <color name="accentBright">#7dd0ff</color>
+    
+    <color name="textPrimary">#ffffff</color>
+    <color name="textSecondary">#a8c5e8</color>
+    <color name="textMuted">#6b87ad</color>
+    <color name="textDim">#4a6585</color>
+    
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+</resources>
