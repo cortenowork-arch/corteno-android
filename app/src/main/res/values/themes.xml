@@ -1,21 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     
-    <!-- Base Theme -->
+    <!-- Base Theme - Edge to edge -->
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorPrimary">@color/accentPrimary</item>
         <item name="colorPrimaryDark">@color/bgDark</item>
         <item name="colorAccent">@color/accentLight</item>
         <item name="android:windowBackground">@color/bgDeep</item>
-        <item name="android:statusBarColor">@color/bgDeep</item>
-        <item name="android:navigationBarColor">@color/bgDeep</item>
     </style>
     
-    <!-- No ActionBar Theme -->
+    <!-- No ActionBar Theme - True fullscreen -->
     <style name="AppTheme.NoActionBar" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
     </style>
     
     <!-- Splash Theme -->

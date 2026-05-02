@@ -4,41 +4,63 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    
-    <!-- Background gradient -->
-    <path
-        android:fillColor="#0a1628"
-        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
-    
-    <!-- Glow circle -->
+
+    <!-- Glow background -->
     <path
         android:fillColor="#3ba8ff"
-        android:fillAlpha="0.2"
-        android:pathData="M54,54 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+        android:fillAlpha="0.15"
+        android:pathData="M54,54 m-44,0 a44,44 0 1,0 88,0 a44,44 0 1,0 -88,0" />
     
-    <!-- Main TV icon -->
+    <!-- Outer circle ring -->
     <path
         android:fillColor="#5bc0ff"
-        android:strokeColor="#5bc0ff"
-        android:strokeWidth="2"
-        android:pathData="M30,40 L78,40 Q82,40 82,44 L82,72 Q82,76 78,76 L30,76 Q26,76 26,72 L26,44 Q26,40 30,40 Z" />
+        android:pathData="M54,54 m-38,0 a38,38 0 1,0 76,0 a38,38 0 1,0 -76,0 M54,54 m-34,0 a34,34 0 1,0 68,0 a34,34 0 1,0 -68,0 Z"
+        android:fillType="evenOdd" />
     
-    <!-- TV inner -->
-    <path
-        android:fillColor="#0a1628"
-        android:pathData="M32,46 L76,46 L76,70 L32,70 Z" />
-    
-    <!-- Play button -->
+    <!-- Crown - 5 points -->
     <path
         android:fillColor="#7dd0ff"
-        android:pathData="M48,52 L62,58 L48,64 Z" />
+        android:pathData="M40,32 L44,38 L48,30 L54,40 L60,30 L64,38 L68,32 L66,44 L42,44 Z" />
     
-    <!-- TV stand -->
+    <!-- Crown jewels -->
     <path
         android:fillColor="#5bc0ff"
-        android:pathData="M40,76 L40,80 L68,80 L68,76 Z" />
+        android:pathData="M48,38 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
     <path
         android:fillColor="#5bc0ff"
-        android:pathData="M44,80 L44,84 L64,84 L64,80 Z" />
+        android:pathData="M54,40 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#5bc0ff"
+        android:pathData="M60,38 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    
+    <!-- Lion face - mane outline -->
+    <path
+        android:fillColor="#5bc0ff"
+        android:pathData="M54,52 C44,52 36,58 36,68 C36,75 40,80 46,82 L50,86 L58,86 L62,82 C68,80 72,75 72,68 C72,58 64,52 54,52 Z" />
+    
+    <!-- Lion face - inner -->
+    <path
+        android:fillColor="#0a1628"
+        android:pathData="M54,56 C46,56 40,61 40,68 C40,73 43,77 48,79 L52,82 L56,82 L60,79 C65,77 68,73 68,68 C68,61 62,56 54,56 Z" />
+    
+    <!-- Lion eyes -->
+    <path
+        android:fillColor="#7dd0ff"
+        android:pathData="M48,66 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#7dd0ff"
+        android:pathData="M60,66 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    
+    <!-- Lion nose -->
+    <path
+        android:fillColor="#5bc0ff"
+        android:pathData="M54,72 L52,74 L56,74 Z" />
+    
+    <!-- Lion mouth -->
+    <path
+        android:strokeColor="#5bc0ff"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M54,75 L54,77 M54,77 L51,79 M54,77 L57,79" />
     
 </vector>
